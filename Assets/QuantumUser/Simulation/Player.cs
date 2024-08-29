@@ -36,5 +36,10 @@ namespace Quantum
             else direction = FPVector2.Zero;
             filter.Body->Velocity = direction.Normalized * filter.playerInfo->speed;
         }
+
+        private void AnimationCheck()
+        {
+
+        }
     }
 }
