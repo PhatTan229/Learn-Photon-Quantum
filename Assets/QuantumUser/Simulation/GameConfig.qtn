@@ -1,0 +1,15 @@
+input 
+{
+	button Left;
+    button Right;
+    button Up;
+    button Down;
+	button Bomb;
+}
+
+component PlayerInfo
+{
+    FP speed;
+    FP MaxHp;
+    FP CurrentHp;
+}
